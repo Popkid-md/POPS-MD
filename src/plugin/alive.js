@@ -26,7 +26,7 @@ const alive = async (m, Matrix) => {
     image.print(font, x, y, timeString, width, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
     const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
     
-    const uptimeMessage = `*🤖 ETHIX-MD Status Overview*
+    const uptimeMessage = `*🤖 POPKID-MD Status Overview*
 _________________________________________
 
 *📆 ${days} Day(s)*
@@ -83,7 +83,7 @@ _________________________________________
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363249960769123@newsletter',
-                newsletterName: "Ethix-MD",
+                newsletterName: "POPKID-MD",
                 serverMessageId: 143
               }
             }
